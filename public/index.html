@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Charades</title>
+   <link href="style.css" rel="stylesheet"/> 
+</head>
+<body>
+
+<!-- IMAGE -->
+  <h1 class = 'project_heading' id="title">Welcome! Try to guess the correct ONE WORD ANSWER based on the prompt below: <span id='photos'></span></h1>
+
+<!-- Text Box for Word Guess -->
+   <form>
+      <div style="text-align: center;"></div>
+      <img src="" id ="Image_1" alt="Test_Image">
+      <label for="fname" id="YourInterpretation">You Only Get Three Guesses!</label>
+      <p id="furtherinstructions">Both you and your partner MUST type the same answer, so chat away below!</p>
+      <p id="AttemptsText">Your Attempts:</p>
+      <p id="Attempts"></p>
+      <p id="checker"></p>
+      <input type="text" id="fname" name="fname"><br><br>
+
+    </form>
+    <button id="button">Submit Here </button>
+<!-- Chat Box -->
+<div class="container">
+        <!-- View chat messages here here -->
+        <div class="sub-container chat-feed">
+            <div class="chat-header">Chat Box</div>
+            <div class="chat-box" id="chat-box-msgs"></div>
+        </div>
+
+        <!-- Enter chat messages here -->
+        <div class="sub-container chat-input">
+            <input type="text" class="chat-input-name" id="name-input" placeholder="Name" />
+            <input type="text" class="chat-input-msg" id="msg-input" placeholder="Message" />
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+<!-- Submit Button for Guess -->
+     
+      
+    
+              
+
+              
+              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+              <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+              <script src="app.js"></script>
+              <!-- <script>
+                var socket = io();
+            </script> -->
+</body>
+

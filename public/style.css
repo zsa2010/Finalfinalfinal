@@ -1,0 +1,115 @@
+#title{
+    text-align: center;
+}
+body {
+text-align: center;
+    background-color: rgb(159, 92, 193);
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif;   
+  }
+  
+  /* Centered Image Code */
+  
+  img {
+    display: block;
+    width: 60%;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+#fname
+{
+    text-align: center;
+    height:400px;
+    width: 400px;
+    font-size:14pt;
+}
+#Image_1
+{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+}
+
+#YourInterpretation
+{
+    text-align: center;
+    height: 100px;
+    margin-bottom: 100px;
+    margin-top: 300px;
+}
+button{
+  margin-bottom: 50px;
+}
+body {
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-container {
+    text-align: left;
+    display: flex;
+    width: 50%;
+    max-width: 1200px;
+  }
+  .chat-input{
+    border-width: medium;
+    text-align: left;
+    flex-direction: row;
+    align-items: left;
+  }
+  .chat-feed{
+    border-width: medium;
+    text-align: left;
+    flex-direction: column;  
+    align-items: left;
+  }
+  input{
+    border-width: medium;
+    text-align: left;
+    display: inline;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    height: 20px;
+  }
+  .chat-input-name {
+    border-width: medium;
+    width: 20%;
+  }
+  .chat-input-msg{
+    border-width: medium;
+    width: 65%;
+  }
+  button{
+    height: 28px;
+    margin-top: 10px;
+  }
+  .chat-header{
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chat-box{
+    text-align: center;
+    border: 2px solid black;
+    height: 300px;
+    padding-left: 5px;
+    overflow: auto;
+  }
+  p{
+    overflow-wrap: break-word;
+  }
+  @media (max-width: 800px) {
+    .sub-container {
+        width: 75%;
+    }
+  
+  }
